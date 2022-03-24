@@ -11,6 +11,7 @@ import {
   import {
     IoLogoInstagram,  
   } from "react-icons/io";
+  import logo from '../Assets/blocx_lo.png';
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
       <div className="container">
         <div className="row ">
           <div className="col-lg-3 footer">
-            <img src="https://devoxsoftware.com/wp-content/themes/main/assets/images/logo.svg" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="col-lg-3 footer">
             <a className="tag">Company</a>
@@ -38,19 +39,19 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 footer">
             <a className="tag" href="#">
-              Technology
+            Platforms
             </a>
-            <a href="#">Full Stack Developer</a>
-            <a href="#">Angular Developer</a>
-            <a href="#">Web Developer</a>
-            <a href="#">Hire Dot Net Developers</a>
-            <a href="#">Hire Java Programmers</a>
-            <a href="#">Microsoft .NET Development Company</a>
-            <a href="#">Angular Development Services</a>
-            <a href="#">Java Software Development Services</a>
-            <a href="#">React JS Development Company</a>
-            <a href="#">Vue JS Development Company</a>
-            <a href="#">Node JS Development Services</a>
+            <a href="#">Binance Smart Chain</a>
+            <a href="#">Ethereum</a>
+            <a href="#">Polygon</a>
+            <a href="#">Solana</a>
+            <a href="#">Avalanche</a>
+            <a href="#">Metis</a>
+            <a href="#">Cosmos</a>
+            <a href="#">Polkadot</a>
+            <a href="#">DeX</a>
+            <a href="#">DeFi</a>
+            <a href="#">DAO</a>
           </div>
         </div>
         <div className="row end">

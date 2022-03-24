@@ -1,10 +1,11 @@
 import React from 'react'
 import {Link } from 'react-router-dom';
+import logo from './Assets/blocx_lo.png';
 const Nav = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <img src="https://devoxsoftware.com/wp-content/themes/main/assets/images/logo.svg" alt="logo" />
+            <img src={logo} alt="logo" />
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

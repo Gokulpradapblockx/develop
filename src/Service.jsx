@@ -2,11 +2,12 @@ import React from "react";
 import Contactus from "./Home/Contactus";
 import Footer from "./Home/Footer";
 import { FaArrowRight } from "react-icons/fa";
-// import img5 from './Assets/Blockchain_testing';
-// import img4 from './Assets/Blockchain_testing';
-// import img3 from './Assets/Blockchain_testing';
-// import img2 from './Assets/Blockchain_testing';
-// import img1 from './Assets/Blockchain_testing';
+import img6 from './Assets/Blockchain_testing.jpg';
+import img5 from './Assets/Mobile_application_photo.jpg';
+import img4 from './Assets/Graphic_designing_photo.jpg';
+import img3 from './Assets/Backend_development.jpg';
+import img2 from './Assets/Front_End_photo.jpg';
+import img1 from './Assets/Blockchain_photo.jpg';
 const Services = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Blockchain_photo.jpg?raw=true"
+                src={img1}
                 alt=""
               />
               <h6>Blockchain Development</h6>
@@ -52,7 +53,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Front_End_photo.jpg?raw=true"
+                src={img2}
                 alt=""
               />
               <h6>Front End - Web 3.O Development</h6>
@@ -77,7 +78,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Backend_development.jpg?raw=true"
+                src={img3}
                 alt=""
               />
               <h6>Back End Development</h6>
@@ -104,7 +105,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Graphic_designing_photo.jpg?raw=true"
+                src={img4}
                 alt=""
               />
               <h6>Graphics Designing</h6>
@@ -130,7 +131,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Mobile_application_photo.jpg?raw=true"
+                src={img5}
                 alt=""
               />
               <h6>Mobile Application Development</h6>
@@ -158,7 +159,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://github.com/Gokulpradapblockx/blockxweb/blob/main/Blockchain_testing.jpg?raw=true"
+                src={img6}
                 alt=""
               />
               <h6>Blockchain Auditing & Testing</h6>

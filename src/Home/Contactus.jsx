@@ -44,7 +44,7 @@ function Contactus() {
     <>
       <div className="container">
         <div className="heading col-lg-12">
-          <h1>Got a project</h1>
+          <h1>Get In <strong>Touch </strong>With Us</h1>
         </div>
         <form onSubmit={formik.handleSubmit}>
           <div className="container contact">
@@ -80,16 +80,17 @@ function Contactus() {
                 <br />
                 <div className="text-style">
                   <textarea
-                    type="text"
+                    
                     className="col-lg-12 text"
                     onChange={formik.handleChange}
                   value={formik.values.text}
+                  type="text"
                   name="text"
                     placeholder="Enter your massage"
                   ></textarea>
-                  
+                   {formik.errors.text ? <div style={{color: "red"}}>{formik.errors.text}</div> : null}
                 </div>
-                {formik.errors.text ? <div style={{color: "red"}}>{formik.errors.text}</div> : null}
+               
               </div>
               <div className="radio-btn">
                 <label className="mt-3">Your interest</label>

@@ -54,49 +54,80 @@ const Test = () => {
       <div className='slide' id="tech">
         <Slider {...settings}>
           <div className='one'>
+          <h5>Algorand</h5>
             <img src={Algorand} alt="Algorand" />
+            
           </div>
           <div className='one'>
-            <img src={Binance} alt="Algorand" />
+          <h5>Binance</h5>
+            <img src={Binance} alt="Binance" />
+            
           </div>
           <div className='one'>
-            <img src={Bitcoin} alt="Algorand" />
+          <h5>Bitcoin</h5>
+            <img src={Bitcoin} alt="Bitcoin" />
+            
           </div>
           <div className='one'>
-            <img src={Cardano} alt="Algorand" />
+          <h5>Cardano</h5>
+            <img src={Cardano} alt="Cardano" />
+            
           </div>
           <div className='one'>
-            <img src={Cosmos} alt="Algorand" />
+          <h5>Cosmos</h5>
+            <img src={Cosmos} alt="Cosmos" />
+            
           </div>
           <div className='one'>
-            <img src={Elrond} alt="Algorand" />
+          <h5>Elrond</h5>
+            <img src={Elrond} alt="Elrond" />
+           
           </div>
           <div className='one'>
-            <img src={Ethereum} alt="Algorand" />
+          <h5>Ethereum</h5>
+            <img src={Ethereum} alt="Ethereum" />
+          
+           
           </div>
           <div className='one'>
-            <img src={Polkadot} alt="Algorand" />
+          <h5>Polkadot</h5>
+            <img src={Polkadot} alt="Polkadot" />
+           
           </div>
           <div className='one'>
-            <img src={Polygon} alt="Algorand" />
+          <h5>Polygon</h5>
+            <img src={Polygon} alt="Polygon" />
+            
           </div>
           <div className='one'>
-            <img src={Solana} alt="Algorand" />
+          <h5>Solana</h5>
+            <img src={Solana} alt="Solana" />
+            
           </div>
           <div className='one'>
-            <img src={Stack} alt="Algorand" />
+          <h5>Stack</h5>
+            <img src={Stack} alt="Stack" />
+           
           </div>
           <div className='one'>
-            <img src={Stellar} alt="Algorand" />
+          <h5>Stellar</h5>
+            <img src={Stellar} alt="Stellar" />
+            
           </div>
           <div className='one'>
-            <img src={Tezos} alt="Algorand" />
+          <h5>Tezos</h5>
+            <img src={Tezos} alt="Tezos" />
+           
           </div>
           <div className='one'>
-            <img src={Tron} alt="Algorand" />
+          <h5>Tron</h5>
+            <img src={Tron} alt="Tron" />
+           
           </div>
           <div className='one'>
-            <img src={Wazirx} alt="Algorand" />
+          <h5>Wazirx</h5>
+            <img src={Wazirx} alt="Wazirx"/>
+           
           </div>
         </Slider>
       </div>

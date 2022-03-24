@@ -30,18 +30,11 @@ const Footer = () => {
             <a className="tag" href="#">
               Services
             </a>
-            <a href="#">Software Development Outsourcing Services</a>
-            <a href="#">Dedicated Team</a>
-            <a href="#">Staff Augmentation</a>
-            <a href="#">IT Outstaffing Services</a>
-            <a href="#">ODC</a>
-            <a href="#">BPO</a>
-            <a href="#">Back End Development Services</a>
-            <a href="#">Front End Development Company</a>
-            <a href="#">SaaS Application Development Services</a>
-            <a href="#">Business Intelligence Services</a>
-            <a href="#">Database Development Services</a>
-            <a href="#">Web Development Services</a>
+            <a href="#">Blockchain Development</a>
+            <a href="#">Front End - Web 3.O Development</a>
+            <a href="#">Back End Development</a>
+            <a href="#">Graphics Designing</a>
+            <a href="#">Mobile App Development</a>
           </div>
           <div className="col-lg-3 footer">
             <a className="tag" href="#">

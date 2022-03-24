@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Contactus from "./Home/Contactus";
+import Footer from "./Home/Footer";
 const Aboutus = () => {
   return (
     <>
@@ -22,8 +23,8 @@ const Aboutus = () => {
         <div className="row">
           <div class="col-md-6 txt">
             <p>
-              BlockX Technologies is a complete End to End IT Service
-              providers for your business.
+              BlockX Technologies is a complete <strong>End to End IT Service
+              providers</strong> for your business.
             </p>
             <p>
               Our main expert domains are Blockchain Applications and
@@ -39,8 +40,8 @@ const Aboutus = () => {
               etc.
             </p>
             <p>
-              We are committed to work on with Web and Mobile applicatonns
-              both Hybrid and Native pps as per the ideas and requirements of
+              We are committed to work on with <strong>Web and Mobile applications
+              both Hybrid and Native</strong> apps as per the ideas and requirements of
               the client.
             </p>
           </div>
@@ -115,21 +116,21 @@ const Aboutus = () => {
           <div class="col-md-6 txt">
             <p>
               We help improve and bring your business online through custom
-              software solutions. The greatest achievement for us is to make
-              maximum profit for your business, drive real value for your
+              software solutions. <strong>The greatest achievement for us is to make
+              maximum profit for your business</strong>, drive real value for your
               users, and ensure your product hits the top ratings.
             </p>
             <p>
               We provide web and mobile tools and deliver advanced tech
-              solutions to be implemented to guarantee high-quality, fast,
-              seamless, flexible, and easy-to-use final product.
+              solutions to be implemented to guarantee <b>high-quality, fast,
+              seamless, flexible, and easy-to-use final product</b>
             </p>
           </div>
 
           <div class="col-md-6 txt">
             <p>
-              Our mission is to create not a normal applications but an
-              complete Blockchain Application End to End that makes the whole
+              Our mission is to create not a normal applications but an 
+              <strong> complete Blockchain Applications</strong> End to End that makes the whole
               society a better place. We will help you implement solutions
               that everyone always is going to want.
             </p>
@@ -168,14 +169,16 @@ developing field of innovative products.
 
           <div class="col-md-6 txt">
             <p>
-            At BlockX Technologies , we offer top-end solutions on Blockchain 
-Application using  web and mobile development market, which will 
+            At BlockX Technologies , <strong>we offer top-end solutions on Blockchain 
+Application</strong> using  web and mobile development market, which will 
 help your idea grow and conquer business. 
             </p>
           </div>
         </div>
       </div>
     </div>
+    <Contactus/>
+   <Footer/>
   </>
   )
 }

@@ -1,0 +1,58 @@
+.slide {
+    margin-top: 5rem;
+    margin-bottom: 0.59rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    height: 100%;
+  }
+
+  .one img {
+   width: 100px;
+   height: 100px;
+   margin-bottom: 5rem;
+  }  
+
+  .two img {
+    width: 100px;
+    height: 100px;
+   }
+   .three img {
+    width: 100px;
+    height: 100px;
+   }
+   .four img {
+    width: 150px;
+    height: 100px;
+    margin-top: 0px;
+   }
+   .five img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+   }
+   .six img {
+    width: 100px;
+    height: 100px;
+   }
+   .seven img {
+    width: 80px;
+    height: 100px;
+   }
+   /* .eight img {
+    width: 100px;
+    height: 100px;
+   }
+   .nine img {
+    width: 100px;
+    height: 100px;
+   }
+   .ten img {
+    width: 100px;
+    height: 100px;
+   }
+   .eleven img {
+    width: 100px;
+    height: 100px;
+   } */

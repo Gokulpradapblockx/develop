@@ -6,6 +6,7 @@ import Managers from "./Home/Managers";
 import Footer from "./Home/Footer";
 import Header from "./Home/Header";
 import Servicecard from './Servicecard'
+import Test from "./Test";
 const Home = () => {
   return (
   
@@ -13,15 +14,12 @@ const Home = () => {
      <Header />
       <About />
       <Servicecard/>
+      <Test/>
       <Managers />
       <Why />
       <Contactus />
       <Footer />
-      </>
-              
-   
-    
-   
+      </>     
   );
 };
 

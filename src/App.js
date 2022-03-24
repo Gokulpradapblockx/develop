@@ -1,32 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-import Aboutus from './Aboutus';
-import Home from './Home';
-import Nav from './Nav'
-import Services from "./Services";
+import "./App.css";
+import Aboutus from "./Aboutus";
+import Home from "./Home";
+import Nav from "./Nav";
+import Service from "./Service";
 import Portfolio from "./Portfolio";
-import React from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Router,
-} from "react-router-dom";
-import Servicecard from './Servicecard'
+import Expertise from "./Servicecard/Expertise";
+import Industries from "./Servicecard/Industries";
+import Services from "./Servicecard/Services";
+import Technologies from "./Servicecard/Technologies";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Careers from "./Careers";
 function App() {
-  return ( 
+  return (
     <>
-   
-    <BrowserRouter>
-   <Nav/>
-   {/* <Servicecard/> */}
-       <Routes>        
-      <Route path="/" element={ <Home/> }/>
-      <Route path="/Portfolio" element={  <Portfolio/> }/>
-      <Route path="/Services" element={<Services/> }/>
-      <Route path="/Aboutus" element={   <Aboutus/> }/>           
-    </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route exact path="" element={<Expertise />} />
+            <Route exact path="service" element={<Services />} />
+            <Route exact path="industry" element={<Industries />} />
+            <Route exact path="technologies" element={<Technologies />} />
+          </Route>
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Services" element={<Service />} />
+          <Route path="/Aboutus" element={<Aboutus />} />
+          <Route path="/Careers" element={<Careers />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

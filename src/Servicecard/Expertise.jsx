@@ -8,10 +8,11 @@ import research from "../Assets/research.svg";
 
 const Expertise = () => {
   return (
-    <>
-      <div className="srv-card">
+   
+      <div className="container">
+        <div className="srv-card">
         <div className="row space">
-          <div className="col-2 card1">
+          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 card1">
             <div class="maincontainer">
               <div class="thecard">
                 <div class="thefront">
@@ -36,7 +37,7 @@ const Expertise = () => {
               </div>
             </div>
           </div>
-          <div className="col-2 card1">
+          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 card1">
             <div class="maincontainer">
               <div class="thecard">
                 <div class="thefront">
@@ -61,7 +62,7 @@ const Expertise = () => {
               </div>
             </div>
           </div>
-          <div className="col-2 card1">
+          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 card1">
             <div class="maincontainer">
               <div class="thecard">
                 <div class="thefront">
@@ -86,7 +87,7 @@ const Expertise = () => {
               </div>
             </div>
           </div>
-          <div className="col-2 card1">
+          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 card1">
             <div class="maincontainer">
               <div class="thecard">
                 <div class="thefront">
@@ -111,7 +112,7 @@ const Expertise = () => {
               </div>
             </div>
           </div>
-          <div className="col-2 card1">
+          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 card1">
             <div class="maincontainer">
               <div class="thecard">
                 <div class="thefront">
@@ -138,7 +139,8 @@ const Expertise = () => {
           </div>
         </div>
       </div>
-    </>
+      </div>
+   
   );
 };
 

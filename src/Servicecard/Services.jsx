@@ -6,7 +6,7 @@ import graphic from "../Assets/graphic-tool.svg";
 import research from "../Assets/research.svg";
 const Services = () => {
   return (
-    <>
+  <div className="container">
     <div className="srv-card">
       <div className="row space">
         <div className="col-2 card1">
@@ -136,7 +136,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  </>
+  </div>
   )
 }
 

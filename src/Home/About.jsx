@@ -42,7 +42,7 @@ function About() {
                   <FaLinkedinIn />
                 </i>
               </a>
-              <a href="./">
+              <a href="#">
                 <i>
                   <FaBehance />
                 </i>

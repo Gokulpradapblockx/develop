@@ -169,11 +169,11 @@ body {
 }
 .why span {
   color: #515c6a;
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 700;
 }
 .why h1 {
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 700;
   color: #140d26;
   margin-bottom: 5rem;
@@ -661,9 +661,13 @@ body {
   font-weight: 350;
   padding: 0 80px 0 80px;
 }
-.exper a {
+.exper a{
   text-decoration: none;
   color: #050801;
+  font-weight: 500;
+}
+.exper li{
+  margin-bottom: 3rem;
 }
 
 /* ************ */
@@ -681,7 +685,7 @@ body {
   height: 16rem;
   border-radius: 20px;
   transform-style: preserve-3d;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
 }
 
 .thecard:hover {
@@ -808,7 +812,7 @@ body {
 }
 .card-size img {
   margin-left: 1rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .card-size h5 {

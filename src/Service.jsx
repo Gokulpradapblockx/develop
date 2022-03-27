@@ -16,7 +16,7 @@ const Services = () => {
           <div className="col-lg-6 Services_d">
           <h1>Blockchain Development</h1>
             <div className="side_phara">
-              <p>Get a free cosultation</p>{" "}
+              <p>Get a free cosultation</p>
               <a className="button-i" href="#">
                 <i>
                   <FaArrowRight />

@@ -20,8 +20,6 @@ function Contactus() {
         errors.email = "Please Enter the email";        
       } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
         errors.email = 'Invalid email address';
-      } if (!values.textarea) {
-        errors.text = 'Please Enter the text';
       } if (!values.checkbox) {
         errors.checkbox = 'Field must be checked';
       }
@@ -44,13 +42,13 @@ function Contactus() {
     <>
       <div className="container">
         <div className="heading col-lg-12">
-          <h1>Get In <strong>Touch </strong>With Us</h1>
+          <h1>Get In <strong>Touch </strong>!!</h1>
         </div>
         <form onSubmit={formik.handleSubmit}>
           <div className="container contact">
             <div className="row">
               <div className="col-lg-6 col-sm-12 mt-3">
-                <label>Name</label>
+                <label className="mb-3">Name</label>
                 <br />
                 <input
                   className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
@@ -63,7 +61,7 @@ function Contactus() {
                 {formik.errors.name ? <div style={{color: "red"}}>{formik.errors.name}</div> : null}
               </div>
               <div className="col-lg-6 col-sm-12 mt-3">
-                <label>Email</label>
+                <label className="mb-3">Email</label>
                 <br />
                 <input
                   className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
@@ -76,7 +74,7 @@ function Contactus() {
                 {formik.errors.email ? <div style={{color: "red"}}>{formik.errors.email}</div> : null}
               </div>
               <div className="col-lg-12 mt-3">
-                <label>Your message</label>
+                <label className="mb-3">Your message</label>
                 <br />
                 <div className="text-style">
                   <textarea
@@ -88,7 +86,7 @@ function Contactus() {
                   name="text"
                     placeholder="Enter your massage"
                   ></textarea>
-                   {formik.errors.text ? <div style={{color: "red"}}>{formik.errors.text}</div> : null}
+                   
                 </div>
                
               </div>
@@ -97,6 +95,7 @@ function Contactus() {
                 <div className="radio-input col-lg-8">
                   <div>
                     <input
+                    className="m-2"
                       type="radio"
                       id="Blockchain Development"
                       name="fav_language"
@@ -108,6 +107,7 @@ function Contactus() {
                   </div>
                   <div>
                     <input
+                     className="m-2"
                       type="radio"
                       id="Marketing"
                       name="fav_language"
@@ -117,6 +117,7 @@ function Contactus() {
                   </div>
                   <div>
                     <input
+                     className="m-2"
                       type="radio"
                       id="Join our Team"
                       name="fav_language"
@@ -142,7 +143,7 @@ function Contactus() {
                   </select>
                 </div>
               </div>
-              <div className="check m-3">
+              <div className="check mr-3 mt-3">
                   <input type="checkbox"
                     onChange={formik.handleChange}
                   value={formik.values.checkbox}

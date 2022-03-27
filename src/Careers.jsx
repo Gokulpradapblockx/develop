@@ -24,7 +24,7 @@ const carrers = () => {
               </div>
               <div>
                 <h1>
-                  Devox Software <br />
+                BlockX Software <br />
                   Team
                 </h1>
               </div>

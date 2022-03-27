@@ -26,10 +26,10 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-backend"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                Python Software Engineer
+              Front End Developer 
               </h3>
               <p className="looking-for__item--description">
-                #Python #SQL #REST API
+               #React JS #Vue JS
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -46,10 +46,10 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-backend"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                Java Software Engineer
+              Blockchain Developer
               </h3>
               <p className="looking-for__item--description">
-                #Java #AWS #GrahphQL
+                #Ethereum #Solana #Cosmos
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -66,10 +66,10 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-frontend"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                Frontend Software Engineer
+              Smart Contract Developer
               </h3>
               <p className="looking-for__item--description">
-                #solidity #solana #rust
+                #Solidity #Rust #Golang #Haskel
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -88,10 +88,10 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-qa"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                QA Automation Engineer
+              MERN & MEAN Developer
               </h3>
               <p className="looking-for__item--description">
-                #QA #Automation #JavaScript #ISTQB
+                #Mango DB #Express #React #Angular #Node Js
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -108,10 +108,10 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-pm"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                Lead generation specialist
+              Back End Developer
               </h3>
               <p className="looking-for__item--description">
-                #leadgeneration #research
+                #Node Js #Node Js #SQL
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -128,10 +128,32 @@ const Weare = () => {
             <i className="looking-for__item--icon icon-fullstack"></i>
             <div className="looking-for__item--text">
               <h3 className="looking-for__item--title">
-                Full Stack Engineer Lead
+              Android Application Developer
               </h3>
               <p className="looking-for__item--description">
-                #front #back #AWS
+                #JAVA #KOTLIN
+              </p>
+            </div>
+            <span className="hire-card_direction hire-card_direction--fullstack">
+              <i className="icon icon-arrow">
+                <img
+                  src="https://devoxsoftware.com/wp-content/themes/main/assets/images/icons/icon-arrow.svg"
+                  alt=""
+                />
+              </i>
+            </span>
+            <a className="looking-for__item--link" href="www."></a>
+          </div>          
+        </div>
+        <div className="row">
+          <div className="looking-for__item col-sm-4 mx-2">
+            <i className="looking-for__item--icon icon-qa"></i>
+            <div className="looking-for__item--text">
+              <h3 className="looking-for__item--title">
+              IOS Application Developer 
+              </h3>
+              <p className="looking-for__item--description">
+                #SWIFT 
               </p>
             </div>
             <span className="hire-card_direction hire-card_direction--fullstack">
@@ -144,6 +166,46 @@ const Weare = () => {
             </span>
             <a className="looking-for__item--link" href="www."></a>
           </div>
+          <div className="looking-for__item col-sm-4 mx-2">
+            <i className="looking-for__item--icon icon-pm"></i>
+            <div className="looking-for__item--text">
+              <h3 className="looking-for__item--title">
+              Hybrid Mobile Developer
+              </h3>
+              <p className="looking-for__item--description">
+                #React Native #React Native
+              </p>
+            </div>
+            <span className="hire-card_direction hire-card_direction--fullstack">
+              <i className="icon icon-arrow">
+                <img
+                  src="https://devoxsoftware.com/wp-content/themes/main/assets/images/icons/icon-arrow.svg"
+                  alt=""
+                />
+              </i>
+            </span>
+            <a className="looking-for__item--link" href="www."></a>
+          </div>
+          <div className="looking-for__item col-sm-4 mx-2">
+            <i className="looking-for__item--icon icon-fullstack"></i>
+            <div className="looking-for__item--text">
+              <h3 className="looking-for__item--title">
+              UI/ UX Designer
+              </h3>
+              <p className="looking-for__item--description">
+                #Any
+              </p>
+            </div>
+            <span className="hire-card_direction hire-card_direction--fullstack">
+              <i className="icon icon-arrow">
+                <img
+                  src="https://devoxsoftware.com/wp-content/themes/main/assets/images/icons/icon-arrow.svg"
+                  alt=""
+                />
+              </i>
+            </span>
+            <a className="looking-for__item--link" href="www."></a>
+          </div>          
         </div>
       </div>
 

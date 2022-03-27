@@ -28,9 +28,9 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 footer">
             <a className="tag">Company</a>
-            <a href="#">About Us</a>
-            <a href="#">Careers</a>
-            <a href="#">Mentorship</a>
+            <a href="./Aboutus">About Us</a>
+            <a href="./Careers">Careers</a>
+            <a href="./Portfolio">Portfolio</a>
           </div>
           <div className="col-lg-3 footer">
             <a className="tag" href="#">

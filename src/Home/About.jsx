@@ -2,8 +2,7 @@ import React from "react";
 import {
   FaFacebookF,
   FaLinkedinIn,
-  FaBehance,
-  FaArrowRight,
+  FaDiscord,
 } from "react-icons/fa";
 import {
   BsArrowRight,
@@ -32,19 +31,19 @@ function About() {
           <div className="row"></div>
           <div className="row">
             <div className="col-md-2 social-menu">
-              <a href="./">
+              <a href="https://www.facebook.com/blockxtechnologies/">
                 <i>
                   <FaFacebookF />
                 </i>
               </a>
-              <a href="./">
+              <a href="https://www.linkedin.com/company/blockx-technologies-inc">
                 <i>
                   <FaLinkedinIn />
                 </i>
               </a>
-              <a href="./">
+              <a href="https://discord.gg/JvFkxP9Qa8">
                 <i>
-                  <FaBehance />
+                  <FaDiscord />
                 </i>
               </a>
             </div>

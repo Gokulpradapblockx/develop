@@ -2,7 +2,8 @@ import React from "react";
 import {
     FaFacebookF,  
     FaTwitter,
-    FaLinkedinIn
+    FaLinkedinIn,
+    FaDiscord
   } from "react-icons/fa";
   import {   
     GoLocation,
@@ -11,6 +12,10 @@ import {
   import {
     IoLogoInstagram,  
   } from "react-icons/io";
+  import {
+    BsMedium 
+  } from "react-icons/bs";
+  
   import logo from '../Assets/blocx_lo.png';
 
 const Footer = () => {
@@ -59,13 +64,15 @@ const Footer = () => {
             <p><GoLocation/>Location</p>
           </div>
           <div className="col-lg-4 col-sm-12 col-xs-12 footer logo">
-           <a href="#"><p><FaFacebookF/></p></a>
-           <a href="#"><p><IoLogoInstagram/></p></a>
-           <a href="#"><p><FaTwitter/></p></a>
-           <a href="#"><p><FaLinkedinIn/></p></a>
+           <a target="_blank" href="https://www.facebook.com/blockxtechnologies/"><p><FaFacebookF/></p></a>
+           <a target="_blank" href="https://www.instagram.com/blockxtechnologies"><p><IoLogoInstagram/></p></a>
+           <a target="_blank" href="https://mobile.twitter.com/@BlockXTechInc"><p><FaTwitter/></p></a>
+           <a target="_blank" href="https://www.linkedin.com/company/blockx-technologies-inc"><p><FaLinkedinIn/></p></a>
+           <a target="_blank" href="https://medium.com/@socialmedia.blockxtech"><p><BsMedium/></p></a>
+           <a target="_blank" href="https://discord.gg/JvFkxP9Qa8"><p><FaDiscord/></p></a>
           </div>        
         <div className="col-lg-4 footer">
-          <p><GoMail/> Mail</p>
+          <p><GoMail/> blockxtechnologies.inc</p>
         </div>
         </div>
       </div>

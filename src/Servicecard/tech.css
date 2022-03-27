@@ -1,58 +1,41 @@
-.slide {
-    margin-top: 5rem;
-    margin-bottom: 0.59rem;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5rem;
-    margin-left: 5rem;
+.slide2 {    
+    
     height: 100%;
   }
 
-  .one img {
+  .ten img{
    width: 100px;
    height: 100px;
-   margin-bottom: 5rem;
+   margin-left: 2rem;
   }  
 
   .two img {
     width: 100px;
     height: 100px;
+    margin-left: 2rem;
    }
    .three img {
     width: 100px;
     height: 100px;
+    margin-left: 2rem;
    }
    .four img {
     width: 150px;
-    height: 100px;
-    margin-top: 0px;
+    height: 100px;   
+    margin-left: 2rem;
    }
    .five img {
     width: 100px;
     height: 100px;
-    margin-left: 20px;
+    margin-left: 2.5rem;
    }
    .six img {
     width: 100px;
     height: 100px;
+    margin-left: 2rem;
    }
    .seven img {
     width: 80px;
     height: 100px;
+    margin-left: 2rem;
    }
-   /* .eight img {
-    width: 100px;
-    height: 100px;
-   }
-   .nine img {
-    width: 100px;
-    height: 100px;
-   }
-   .ten img {
-    width: 100px;
-    height: 100px;
-   }
-   .eleven img {
-    width: 100px;
-    height: 100px;
-   } */

@@ -18,7 +18,7 @@ const Technologies = () => {
     <div>
       <div className='slide' id="tech">
         <Slider {...settings}>
-          <div className='one'>
+          <div className='ten'>
             <img src={react} alt="react" />
           </div>
           <div className='two'>

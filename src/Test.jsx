@@ -55,7 +55,7 @@ const Test = () => {
         <Slider {...settings}>
           <div className='one'>
           <h5>Algorand</h5>
-            <img src={Algorand} alt="Algorand" />
+            <img src={Algorand} alt="Algorand"/>
             
           </div>
           <div className='one'>

@@ -184,8 +184,7 @@ body {
   box-shadow: rgba(145, 145, 180, 0.3) 0px 7px 29px 0px;
   border-radius: 25px;
   text-align: left;
-  background-image: linear-gradient(to right top, #b6d0f8, #afe0ff, #b4ecfd, #b6f3fb, #bafffc);
-
+  background-image: linear-gradient(to right top, #9eff9e, #9eff97, #9efe8f, #9ffe87, #a0fd7f);
 }
 .content h5 {
   font-weight: 600;
@@ -197,7 +196,8 @@ body {
 .content p {
   font-size: 13px;
   opacity: 0.8;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .card-content {
   display: flex;
@@ -212,6 +212,7 @@ body {
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   border-radius: 20px;
   text-align: center;
+  background-image: linear-gradient(to right top, #f6f1c3, #f6f3b9, #fdfaaa, #fafca0, #f4fa8c);
 }
 .card-component {
   display: flex;
@@ -222,13 +223,18 @@ body {
 .compont h5 {
   margin: 1.5rem 0rem;
 }
-.compont button {
-  border: none;
-  outline: none;
+.compont a{
+  text-decoration: none;
   color: black;
   margin-top: 1rem;
+  font-weight: 500;
+  transition: .2s;
+  font-size: 18px;
 }
-.compont button:hover {
+.compont a:hover {
+  font-size: 20px;
+  font-weight: 500;
+  transition: .2s;
   color: #7404fd;
 }
 #full-footer {
@@ -645,7 +651,7 @@ body {
 }
 .About-service {
   overflow: hidden;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
 }
 .exper {
   display: flex;
@@ -822,17 +828,17 @@ body {
   margin-bottom: 1rem;
 }
 .slide {
-  margin-top: 7rem;
-  margin-bottom: 0.59rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  height: 100%;
+  margin-right: 6rem;
+  margin-left: 6rem;
 }
 .one img {
- width: 130px;
- height: 130px;  
+ width: 120px;
+ height: 120px;
+ margin-right: 1rem;
 }
 .one h5{
   margin-left: 1rem;

@@ -18,11 +18,9 @@ const Header = () => {
          <div className="col-lg-6">
          <div className="main-page__title-block mb-5">
            <h1>
-           {/* <span className="main-page__title">Your</span> */}
+           
            <span className="main-page__title main-page__title--big">Blockchain Development </span>
-           {/* <span className = "main-page__title main-page__title main-page__title--sub">
-           Service Provider
-           </span> */}
+           
            </h1>
           </div>
         

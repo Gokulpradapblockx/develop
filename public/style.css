@@ -317,6 +317,12 @@ select.form-select{
     margin-top: 2rem;
     height: 100%;
   }
+  .thecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -332,6 +338,12 @@ select.form-select{
   .radio-input label {
     margin: 1rem;
   }
+  .thecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+  }
 }
 @media (max-width: 576px) {
   .contact .input-area {
@@ -340,6 +352,30 @@ select.form-select{
   .radio-input label {
     margin: 1rem;
   }
+  .exper{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+ .exper li{
+   margin-right: 50px;
+   margin-left: -29px;
+ }
+ .thecard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 8rem;
+ }
+ .one img {
+  visibility: hidden;
+ }
+ .one h5{
+   visibility: hidden;
+ }
+
 }
 .d-flex button {
   background-image: linear-gradient(
@@ -847,6 +883,7 @@ select.form-select{
   align-items: center;
   margin-right: 6rem;
   margin-left: 6rem;
+  overflow-wrap: wrap;
 }
 .one img {
  width: 120px;
@@ -868,12 +905,6 @@ select.form-select{
 .footer h6{
   color: #ededee;
 }
-.navbar{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
 .footer1{
   margin-top: 3rem;
 }
@@ -882,6 +913,13 @@ small{
  display: flex;
  align-items: center;
  justify-content: space-around;
- /* padding-bottom: 2rem; */
  background-color: #fbfbfb;
+}
+@media (max-width: 576px) {
+  .logo a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
 }

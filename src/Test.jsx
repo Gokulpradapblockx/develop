@@ -33,8 +33,8 @@ const settings = {
 
 const Test = () => {
   return (
-   
-    <div className="About">
+   <div className="hide">
+      <div className="About">
     <div className="row">
       <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <div className="why">
@@ -133,7 +133,7 @@ const Test = () => {
       </div>
     </div>
     </div>
-  
+   </div>  
   )
 }
 

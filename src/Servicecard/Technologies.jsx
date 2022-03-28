@@ -16,7 +16,7 @@ const settings = {
 const Technologies = () => {
   return (
     <div>
-      <div className='slide' id="tech">
+      <div className='slide2' id="tech">
         <Slider {...settings}>
           <div className='ten'>
             <img src={react} alt="react" />

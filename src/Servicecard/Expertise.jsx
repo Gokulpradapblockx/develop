@@ -21,7 +21,7 @@ const Expertise = () => {
                       <h1>01</h1>
                     </div>
                     <img src={web} alt="" />
-                    <h5>Web Developement</h5>
+                    <h5>Decentralized Finances(DeFi)</h5>
                   </div>
                 </div>
                 <div class="theback">
@@ -46,7 +46,7 @@ const Expertise = () => {
                       <h1>02</h1>
                     </div>
                     <img src={mobile} alt="" />
-                    <h5>Mobile Development</h5>
+                    <h5>Decentralized Autonomous Organization</h5>
                   </div>
                 </div>
                 <div class="theback">
@@ -71,7 +71,7 @@ const Expertise = () => {
                       <h1>03</h1>
                     </div>
                     <img src={research} alt="" />
-                    <h5>Quality Assurance</h5>
+                    <h5>Non Fungible Tokens(NFTs)</h5>
                   </div>
                 </div>
                 <div class="theback">
@@ -96,7 +96,7 @@ const Expertise = () => {
                       <h1>04</h1>
                     </div>
                     <img src={graphic} alt="" />
-                    <h5>UI/UX Design</h5>
+                    <h5>Token Development  EVM Chains</h5>
                   </div>
                 </div>
                 <div class="theback">
@@ -121,7 +121,7 @@ const Expertise = () => {
                       <h1>05</h1>
                     </div>
                     <img src={cms} alt="" />
-                    <h5>DevOps Services</h5>
+                    <h5>Exchanges</h5>
                   </div>
                 </div>
                 <div class="theback">

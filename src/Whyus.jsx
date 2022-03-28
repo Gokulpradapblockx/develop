@@ -1,12 +1,12 @@
 import React from 'react'
-import "./carrers.css";
+// import "./carrers.css";
 const Whyus = () => {
   return (
     
       <div className="About">
         
       <div className="row">
-      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 mb-3">
         <div className="why">
           <h1>
             <span>Why</span> <br />
@@ -22,7 +22,7 @@ const Whyus = () => {
     <div className="container">
     <div className="row">
       <div className="join-us__list">
-        <div className="join-us__item col-lg-2 col-md-2 col-sm-12 col-12">
+        <div className="join-us__item col-lg-2 col-md-2 col-sm-12 col-12 mb-3">
           <div className="join-us__title">
             <i className="join-us__icon icon-workmanagement"></i>
             <span>Work</span>
@@ -33,7 +33,7 @@ const Whyus = () => {
             <li className="join-us__point">Direct communication with client</li>
           </ul>
         </div>
-        <div className="join-us__item col-lg-2 col-md-2 col-sm-12 col-12">
+        <div className="join-us__item col-lg-2 col-md-2 col-sm-12 col-12 mb-3">
           <div className="join-us__title">
             <i className="join-us__icon icon-education"></i>
             <span>Education</span>
@@ -44,7 +44,7 @@ const Whyus = () => {
             <li className="join-us__point">In-house English classes</li>
           </ul>
         </div>
-        <div class="join-us__item col-lg-2 col-md-2 col-sm-12 col-12">
+        <div class="join-us__item col-lg-2 col-md-2 col-sm-12 col-12 mb-3">
           <div className="join-us__title">
             <i className="join-us__icon icon-entertaiment"></i>
             <span>Entertainment</span>
@@ -58,7 +58,7 @@ const Whyus = () => {
             </li>
           </ul>
         </div>
-        <div class="join-us__item col-lg-2 col-md-2 col-sm-12 col-12">
+        <div class="join-us__item col-lg-2 col-md-2 col-sm-12 col-12 mb-3">
           <div className="join-us__title">
             <i className="join-us__icon icon-bonus"></i>
             <span>Bonuses</span>

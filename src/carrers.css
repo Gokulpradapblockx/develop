@@ -8,10 +8,11 @@
 
 .carrers_heading h1 {
     color: #ffffff;
-    margin-top: -1rem;
-    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
     font-family: "Poppins", sans-serif;
-    font-size: 5.35714rem;
+    font-size: 3.5rem;
     line-height: 1.3;
     font-weight: bold;
     padding: 0;
@@ -21,12 +22,14 @@
     color: #ffffff;
     display: block;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     font-family: "Poppins", sans-serif;
-    font-size: 3.57143rem;
+    font-size: 3.7rem;
     line-height: 1;
     font-weight: bold;
     padding: 0;
     text-align: left;
+    margin-left: 2rem;
 }
 
 
@@ -35,7 +38,9 @@
     font-family: var(--font-family);
     line-height: 2.14286rem;
     font-weight: 200;
-    margin-left: 8rem;
+    margin-bottom: 6.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
     margin-right: 9rem;
     font-family: var(--font-family);
 }
@@ -153,24 +158,12 @@ i.icon-frontend {
     min-height: 153px;
 }
 
-.looking-for_item:hover .hire-card_direction {
+.hire-card_direction {
+    padding: .8rem;
     background: #ffc400;
 }
   
-/* * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-width: 1px;
-}
-*, :focus {
-    outline: 0;
-} */
+
 
 .looking-for__item--title {
     font-size: 16px;
@@ -180,9 +173,6 @@ i.icon-frontend {
     color: #1F1F1F;
     font-family: "Poppins", sans-serif;
     margin-bottom: 16px;
-    font-weight: 600;
-    line-height: 1.2;
-    padding-bottom: 20px;
     font-weight: 600;
     line-height: 1.2;
     padding-bottom: 20px;
@@ -208,6 +198,7 @@ line-height: 1.8;
 .looking-for_item .hire-card_direction {
     height: auto;
     min-height: 100%;
+    vertical-align: middle;
 }
 
 .hire-card__direction {
@@ -511,4 +502,7 @@ ul {
 .join-us__item:not(:first-child) {
     margin-top: 20px;
 }
+}
+.icon-arrow img{
+    margin-top: 4.5rem;
 }

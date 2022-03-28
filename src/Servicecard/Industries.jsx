@@ -18,7 +18,7 @@ const Industries = () => {
                     <h1>01</h1>
                   </div>
                   <img src={web} alt="" />
-                  <h5>MarTech</h5>
+                  <h5>Ethereum</h5>
                 </div>
               </div>
               <div class="theback">
@@ -43,7 +43,7 @@ const Industries = () => {
                     <h1>02</h1>
                   </div>
                   <img src={mobile} alt="" />
-                  <h5>Real Estate</h5>
+                  <h5>Polygon</h5>
                 </div>
               </div>
               <div class="theback">
@@ -68,7 +68,7 @@ const Industries = () => {
                     <h1>03</h1>
                   </div>
                   <img src={research} alt="" />
-                  <h5>EdTech</h5>
+                  <h5>Solana</h5>
                 </div>
               </div>
               <div class="theback">
@@ -93,7 +93,7 @@ const Industries = () => {
                     <h1>04</h1>
                   </div>
                   <img src={graphic} alt="" />
-                  <h5>E-Commerce</h5>
+                  <h5>EVM Chains</h5>
                 </div>
               </div>
               <div class="theback">
@@ -118,7 +118,7 @@ const Industries = () => {
                     <h1>05</h1>
                   </div>
                   <img src={cms} alt="" />
-                  <h5>Healthcare</h5>
+                  <h5> Other Blockchain</h5>
                 </div>
               </div>
               <div class="theback">

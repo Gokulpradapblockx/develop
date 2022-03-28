@@ -27,25 +27,21 @@ const Footer = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="col-lg-3 footer">
-            <a className="tag">Company</a>
+            <h6>Company</h6>
             <a href="./Aboutus">About Us</a>
             <a href="./Careers">Careers</a>
             <a href="./Portfolio">Portfolio</a>
           </div>
           <div className="col-lg-3 footer">
-            <a className="tag" href="#">
-              Services
-            </a>
-            <a href="#">Blockchain Development</a>
-            <a href="#">Front End - Web 3.O Development</a>
-            <a href="#">Back End Development</a>
-            <a href="#">Graphics Designing</a>
-            <a href="#">Mobile App Development</a>
+           <h6>Services</h6>
+            <a href="../Services">Blockchain Development</a>
+            <a href="../Services">Front End - Web 3.O Development</a>
+            <a href="../Services">Back End Development</a>
+            <a href="../Services">Graphics Designing</a>
+            <a href="../Services">Mobile App Development</a>
           </div>
           <div className="col-lg-3 footer">
-            <a className="tag" href="#">
-            Platforms
-            </a>
+          <h6>Platforms</h6>
             <a href="#">Binance Smart Chain</a>
             <a href="#">Ethereum</a>
             <a href="#">Polygon</a>
@@ -60,10 +56,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="row end">
-          <div className="col-lg-4 footer">
+          <div className="col-lg-4 footer1">
             <p><GoLocation/>Location</p>
           </div>
-          <div className="col-lg-4 col-sm-12 col-xs-12 footer logo">
+          <div className="col-lg-4 col-sm-12 col-xs-12 footer1 logo">
            <a target="_blank" href="https://www.facebook.com/blockxtechnologies/"><p><FaFacebookF/></p></a>
            <a target="_blank" href="https://www.instagram.com/blockxtechnologies"><p><IoLogoInstagram/></p></a>
            <a target="_blank" href="https://mobile.twitter.com/@BlockXTechInc"><p><FaTwitter/></p></a>
@@ -71,11 +67,13 @@ const Footer = () => {
            <a target="_blank" href="https://medium.com/@socialmedia.blockxtech"><p><BsMedium/></p></a>
            <a target="_blank" href="https://discord.gg/JvFkxP9Qa8"><p><FaDiscord/></p></a>
           </div>        
-        <div className="col-lg-4 footer">
+        <div className="col-lg-4 footer1">
           <p><GoMail/> blockxtechnologies.inc</p>
         </div>
         </div>
+       
       </div>
+      <small>Copyright &copy; 2022, BlockX Pvt Ltd</small>
     </section>
   );
 };

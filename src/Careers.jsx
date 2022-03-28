@@ -11,14 +11,14 @@ const carrers = () => {
       <div className="carrers_container">
         <div className="container ">
           <div className="row">
-            <div className="col-12 col-md-5 my-5">
+            <div className="col-lg-6 col-md-6">
               <img
                 src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/12/career-in-information-technology.png.webp"
                 alt=""
                 className="img-fluid"
               />
             </div>
-            <div className="col-12 col-md-7 text-white carrers_heading my-5">
+            <div className="col-lg-6 col-md-6 text-white carrers_heading">
               <div>
                 <h2>Become A Part of </h2>
               </div>

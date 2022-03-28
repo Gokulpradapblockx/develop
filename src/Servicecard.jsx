@@ -20,17 +20,16 @@ const Servicecard = () => {
       <div className="container">
         <ul class="exper me-auto mb-2 mb-lg-0">
           <li class="servi">
-            <Link to="/">Expertise</Link>
-          </li>
-          <li class="servi">
-            <Link to="/service">Services</Link>
+            <Link to="/">Expert</Link>
           </li>
           <li class="servi">
             <Link to="/industry">Platforms</Link>
           </li>
           <li class="servi">
-              <Link to="/technologies">Technologies</Link> 
-            
+            <Link to="/service">Services</Link>
+          </li>          
+          <li class="servi">
+              <Link to="/technologies">Languages</Link>          
           </li>
         </ul>
       </div>

@@ -18,7 +18,7 @@ const Services = () => {
                     <h1>01</h1>
                   </div>
                   <img src={web} alt="" />
-                  <h5>Software Оutsourcing</h5>
+                  <h5>Blockchain</h5>
                 </div>
               </div>
               <div class="theback">
@@ -43,7 +43,7 @@ const Services = () => {
                     <h1>02</h1>
                   </div>
                   <img src={mobile} alt="" />
-                  <h5>Dedicated Team</h5>
+                  <h5>Web 3.O</h5>
                 </div>
               </div>
               <div class="theback">
@@ -68,7 +68,7 @@ const Services = () => {
                     <h1>03</h1>
                   </div>
                   <img src={research} alt="" />
-                  <h5>Staff Augmentation</h5>
+                  <h5>Web development</h5>
                 </div>
               </div>
               <div class="theback">
@@ -93,7 +93,7 @@ const Services = () => {
                     <h1>04</h1>
                   </div>
                   <img src={graphic} alt="" />
-                  <h5>R&D Office</h5>
+                  <h5>Mobile Apps (Native/Hybrid)</h5>
                 </div>
               </div>
               <div class="theback">
@@ -118,7 +118,7 @@ const Services = () => {
                     <h1>05</h1>
                   </div>
                   <img src={cms} alt="" />
-                  <h5>Business Process</h5>
+                  <h5>Graphic Design</h5>
                 </div>
               </div>
               <div class="theback">

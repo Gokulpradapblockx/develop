@@ -8,9 +8,9 @@ const Header = () => {
     <div className=" gradient__bg">
       <div class="col-lg-12 container">
         <div class="row">
-          <div class=" imade col-lg-6">
+          <div class=" imade col-lg-6 col-sm-12">
             <img
-              src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              src="https://static.vecteezy.com/system/resources/previews/004/578/737/non_2x/server-trading-and-bitcoin-investment-free-vector.jpg"
               alt=""
             />
           </div>
@@ -31,7 +31,7 @@ const Header = () => {
           <div className="main-page__button-container">
             <div className="main-page__button-text">
            Let's talk
-            <a className="round-btn link-to-form" href="#"><i><BsArrowRight /></i></a>
+            <a className="round-btn link-to-form" href="/#Contact"><i><BsArrowRight /></i></a>
             </div>
           </div>
           </div>

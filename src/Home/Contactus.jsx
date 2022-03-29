@@ -13,7 +13,7 @@ function Contactus() {
     },
     validate: (values) => {
       const errors = {};
-      if (!values.name) {
+      if (!values.name){
         errors.name = "Please Enter the name";
       }
       if (!values.email) {
@@ -22,6 +22,9 @@ function Contactus() {
         errors.email = 'Invalid email address';
       } if (!values.checkbox) {
         errors.checkbox = 'Field must be checked';
+      }
+      if (!values.number) {
+        errors.number = 'Please Enter the Number';
       }
 
       return errors;
@@ -40,11 +43,27 @@ function Contactus() {
   });
   return (
     <>
-      <div className="container">
-        <div className="heading col-lg-12">
-          <h1>Get In <strong>Touch </strong>!!</h1>
+     <div className="About"> 
+      <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div className="why">
+              <h1>
+                <span>Get In</span> <br />
+                <strong>Touch !!!</strong>
+              </h1>
+            </div>
+          </div>
+          <div className="opacity container-fluid col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <h1>Contact</h1>
+          </div>
         </div>
-        <form onSubmit={formik.handleSubmit}>
+        </div>
+      <div className="container" id="Contact">
+        {/* <div className="heading col-lg-12">
+          <h1>Get In <strong>Touch </strong>!!</h1>
+        </div> */}
+        <form  method="post" action="mailto:contact@blockxtechnologies.com">
+          <form  onSubmit={formik.handleSubmit}>
           <div className="container contact">
             <div className="row">
               <div className="col-lg-6 col-sm-12 mt-3">
@@ -72,6 +91,19 @@ function Contactus() {
                   type="email"
                 />
                 {formik.errors.email ? <div style={{color: "red"}}>{formik.errors.email}</div> : null}
+              </div>
+              <div className="col-lg-6 col-sm-12 mt-3">
+                <label className="mb-3">Mobile Number</label>
+                <br/>
+                <input
+                  className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
+                  placeholder="Enter your Mobile Number"
+                  onChange={formik.handleChange}
+                  value={formik.values.number}
+                  name="number"
+                  type="number"
+                />
+                {formik.errors.number ? <div style={{color: "red"}}>{formik.errors.number}</div> : null}
               </div>
               <div className="col-lg-12 mt-3">
                 <label className="mb-3">Your message</label>
@@ -147,7 +179,7 @@ function Contactus() {
                   <input type="checkbox"
                     onChange={formik.handleChange}
                   value={formik.values.checkbox}
-                  name="checkbox"/> I agree to Devox Software <a href="#">Privacy Policy</a>
+                  name="checkbox"/> I agree to BlockX Technology <a href="#">Privacy Policy</a>
                    {formik.errors.checkbox ? <div style={{color: "red"}}>{formik.errors.checkbox}</div> : null}
               </div>
             </div>
@@ -155,10 +187,11 @@ function Contactus() {
           <div className="row">
             <div className="col-lg-6">
               <div className=" mt-3">
-                <input className="btn-submit" type="Submit" />
+                <input className="btn-submit" type="Submit" value="Send"/>
               </div>
             </div>
           </div>
+          </form>
         </form>
       </div>
     </>

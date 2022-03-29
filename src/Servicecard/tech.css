@@ -1,6 +1,5 @@
-.slide2 {    
-    
-    height: 100%;
+.slide2 {     
+    height: 100vh;
   }
 
   .ten img{
@@ -27,7 +26,7 @@
    .five img {
     width: 100px;
     height: 100px;
-    margin-left: 2.5rem;
+    margin-left: 3rem;
    }
    .six img {
     width: 100px;
@@ -38,4 +37,60 @@
     width: 80px;
     height: 100px;
     margin-left: 2rem;
+   }
+   @media (max-width:993px) {
+    .slide{
+      
+    }
+    .ten img{
+      width: 100px;
+      height: 100px;
+      margin-left: 2rem;
+     }  
+   
+     .two img {
+      display: none;
+      }
+      .three img {
+        /* display: none; */
+      }
+    .four img {
+      display: none;
+     }
+     .five img {
+      /* display: none; */
+     }
+     .six img {
+      display: none;
+     }
+     .seven img {
+      /* display: none; */
+     }
+   }
+   @media (max-width:940px) {
+    .seven img {
+      display: none;
+     }
+   }
+   @media (max-width:530px) {
+    .ten img{
+      width: 50px;
+       height: 50px;
+       margin-left: 0rem;
+     }  
+   .two img {
+    width: 50px;
+    height: 50px;
+    margin-left: -0.5rem;
+      }
+   .three img {
+       width: 50px;
+       height: 50px;
+       margin-left: 0.3rem;
+      }
+      .five img {
+        width: 50px;
+       height: 50px;
+       margin-left: 0.5rem;
+       }
    }

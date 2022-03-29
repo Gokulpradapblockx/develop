@@ -14,7 +14,7 @@ const Home = () => {
      <Header />
       <About />
       <Servicecard/>
-      <Test/>
+      {/* <Test/> */}
       <Managers />
       <Why />
       <Contactus />

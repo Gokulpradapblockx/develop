@@ -6,10 +6,11 @@ import graphic from "../Assets/graphic-tool.svg";
 import research from "../Assets/research.svg";
 const Industries = () => {
   return (
-  <div className="container">
-    <div className="srv-card">
+   
+    <div className="container">
+      <div className="srv-card">
       <div className="row space">
-        <div className="col-2 card1">
+        <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12 card1">
           <div class="maincontainer">
             <div class="thecard">
               <div class="thefront">
@@ -24,7 +25,7 @@ const Industries = () => {
               <div class="theback">
                 <div className="back">
                   <div className="card-size1">
-                    <img src={web} alt="web" />
+                    <img src={web} alt="web"/>
                     <p>
                     We take care of your product on the development stage. Our IT outsourcing company creates custom web dev solutions for startups and enterprises. We listen to your ideas carefully and deliver the exact result.
                     </p>
@@ -34,7 +35,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="col-2 card1">
+        <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12 card1">
           <div class="maincontainer">
             <div class="thecard">
               <div class="thefront">
@@ -59,7 +60,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="col-2 card1">
+        <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12 card1">
           <div class="maincontainer">
             <div class="thecard">
               <div class="thefront">
@@ -84,7 +85,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="col-2 card1">
+        <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12 card1">
           <div class="maincontainer">
             <div class="thecard">
               <div class="thefront">
@@ -109,7 +110,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="col-2 card1">
+        <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12 card1">
           <div class="maincontainer">
             <div class="thecard">
               <div class="thefront">
@@ -118,7 +119,7 @@ const Industries = () => {
                     <h1>05</h1>
                   </div>
                   <img src={cms} alt="" />
-                  <h5> Other Blockchain</h5>
+                  <h5>Other Blockchain</h5>
                 </div>
               </div>
               <div class="theback">
@@ -136,8 +137,9 @@ const Industries = () => {
         </div>
       </div>
     </div>
-  </div>
-  )
+    </div>
+ 
+);
 }
 
 export default Industries;

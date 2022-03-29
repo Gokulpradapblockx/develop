@@ -2,18 +2,18 @@ import React from "react";
 import Contactus from "./Home/Contactus";
 import Footer from "./Home/Footer";
 import { FaArrowRight } from "react-icons/fa";
-import img6 from './Assets/Blockchain_testing.jpg';
-import img5 from './Assets/Mobile_application_photo.jpg';
-import img4 from './Assets/Graphic_designing_photo.jpg';
-import img3 from './Assets/Backend_development.jpg';
-import img2 from './Assets/Front_End_photo.jpg';
-import img1 from './Assets/Blockchain_photo.jpg';
+import img6 from './Assets/img6.jpg';
+import img5 from './Assets/img5.jpg';
+import img4 from './Assets/img4.jpg';
+import img3 from './Assets/img3.jpg';
+import img2 from './Assets/img2.jpg';
+import img1 from './Assets/img1.jpg';
 const Services = () => {
   return (
     <>
       <div className="over_folw container">
         <div className="row over-service">
-          <div className="col-lg-6 Services_d">
+          <div className="col-lg-6 col-sm-12 Services_d">
           <h1>Blockchain Development</h1>
             <div className="side_phara">
               <p>Get a free cosultation</p>
@@ -28,7 +28,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src={img1}
+                src="https://images.unsplash.com/photo-1561451213-d5c9f0951fdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
                 alt=""
               />
               <h6>Blockchain Development</h6>

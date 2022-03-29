@@ -11,11 +11,13 @@ import Technologies from "./Servicecard/Technologies";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Careers from "./Careers";
+import Navbar from "./Navbar";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Nav />
+        {/* <Navbar/> */}
         <Routes>
           <Route path="/" element={<Home />}>
             <Route exact path="" element={<Expertise />} />

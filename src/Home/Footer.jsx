@@ -8,6 +8,7 @@ import {
   import {   
     GoLocation,
     GoMail,
+    GoDeviceMobile
   } from "react-icons/go";
   import {
     IoLogoInstagram,  
@@ -57,7 +58,9 @@ const Footer = () => {
         </div>
         <div className="row end">
           <div className="col-lg-4 footer1">
-            <p><GoLocation/>Location</p>
+          <p><GoMail/> Contact@blockxtechnologies.com</p>
+          <p><GoDeviceMobile/> Contact number : +91 8531824727</p>
+           
           </div>
           <div className="col-lg-4 col-sm-12 col-xs-12 footer1 logo">
            <a target="_blank" href="https://www.facebook.com/blockxtechnologies/"><p><FaFacebookF/></p></a>
@@ -68,12 +71,12 @@ const Footer = () => {
            <a target="_blank" href="https://discord.gg/JvFkxP9Qa8"><p><FaDiscord/></p></a>
           </div>        
         <div className="col-lg-4 footer1">
-          <p><GoMail/> blockxtechnologies.inc</p>
+        <p><GoLocation/>Location</p>
         </div>
         </div>
        
       </div>
-      <small>Copyright &copy; 2022, BlockX Pvt Ltd</small>
+      <small>Copyright &copy; 2022, All Rights blockxtechnologiesInc</small>
     </section>
   );
 };

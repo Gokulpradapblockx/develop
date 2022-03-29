@@ -21,17 +21,17 @@ const Managers = () => {
                 <div className="row card-component">
                     <div className="col-lg-4 col-sm-12 compont">
                         <h5>TALK TECH?</h5>
-                        <p>If you want to have a comprehensive tech conversation I, as a CTO of Devox Software glad to help you specify technical requirements for your product, suggest the best approach and technological stack.</p>
+                        <p className='m-1'>If you want to have a comprehensive tech conversation I, as a CTO of Devox Software glad to help you specify technical requirements for your product, suggest the best approach and technological stack.</p>
                         <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
                     </div>
                     <div className="col-lg-4 col-sm-12 compont">
                         <h5>NEED A TEAM?</h5>
-                        <p>Need a dynamic team? Then you should talk to me. I am CEO of Devox Software. I’d be glad to discuss your needs with you & help you build a team of top talents to help your business reach its potential.</p>
+                        <p className='m-1'>Need a dynamic team? Then you should talk to me. I am CEO of Devox Software. I’d be glad to discuss your needs with you & help you build a team of top talents to help your business reach its potential.</p>
                         <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
                     </div>
                     <div className="col-lg-4 col-sm-12 compont">
                         <h5>JOIN US?</h5>
-                        <p>Looking for a dream team and a dream job? I am a Recruitment Tech Lead. Write us and send your CV, so we will offer the best opportunity that meets your thriving experience and welcome you in our team.</p>
+                        <p className='m-1'>Looking for a dream team and a dream job? I am a Recruitment Tech Lead. Write us and send your CV, so we will offer the best opportunity that meets your thriving experience and welcome you in our team.</p>
                         <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
                     </div>
                 </div>

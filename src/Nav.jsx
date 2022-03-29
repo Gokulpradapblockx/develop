@@ -3,6 +3,7 @@ import {Link } from 'react-router-dom';
 import logo from './Assets/blocx_lo.png';
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+
 const Nav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
@@ -35,8 +36,10 @@ const Nav = () => {
            <Link class="nav-link active" aria-current="page" to="/Aboutus">About us</Link>
          </li>
          
-         <form class="d-flex">            
-         <a class="btn" type="submit">Contact us</a>
+         <form class="d-flex">  
+                   
+         {/* <Link to="#Contact">Contact us</Link> */}
+        
        </form>
        </ul>
         
@@ -77,7 +80,7 @@ const Nav = () => {
               </li>
               
               <form class="d-flex">            
-              <button class="btn" type="submit">Contact us</button>
+              {/* <a class="btn" type="submit">Contact us</a> */}
             </form>
             </ul>
             </div>

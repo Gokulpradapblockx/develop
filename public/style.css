@@ -878,13 +878,11 @@ select.form-select{
   );
 }
 .card-size img {
-  /* margin-left: 1rem; */
+ 
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-.card-size h5 {
-  /* margin-left: 1rem; */
-}
+
 .theback img {
   margin-bottom: 1rem;
 }

@@ -11,13 +11,14 @@ import Technologies from "./Servicecard/Technologies";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Careers from "./Careers";
+import Single from "./Single";
 // import Navbar from "./Navbar";
 function App() {
   return (
     <>
+   
       <BrowserRouter>
-        <Nav />
-        {/* <Navbar/> */}
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home />}>
             <Route exact path="" element={<Expertise />} />
@@ -25,10 +26,11 @@ function App() {
             <Route exact path="industry" element={<Industries />} />
             <Route exact path="technologies" element={<Technologies />} />
           </Route>
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Portfolio" element={<Portfolio />}/>
           <Route path="/Services" element={<Service />} />
           <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/Careers" element={<Careers />} />
+          <Route path="/Single" element={ <Single/>} />
         </Routes>
       </BrowserRouter>
     </>

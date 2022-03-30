@@ -1,46 +1,22 @@
 import React from "react";
-import { useFormik } from "formik";
-import axios from "axios";
-
+import emailjs from 'emailjs-com';
 function Contactus() {
-  // let navigate = useNavigate();
-  const formik = useFormik({
-    initialValues: {
-      name: "",
-      email: "",
-      text: "",
-      checkbox: "",
-    },
-    validate: (values) => {
-      const errors = {};
-      if (!values.name){
-        errors.name = "Please Enter the name";
-      }
-      if (!values.email) {
-        errors.email = "Please Enter the email";        
-      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-        errors.email = 'Invalid email address';
-      } if (!values.checkbox) {
-        errors.checkbox = 'Field must be checked';
-      }
-      if (!values.number) {
-        errors.number = 'Please Enter the Number';
-      }
-
-      return errors;
-    },
-    onSubmit: async (values) => {
-      console.log(values);
-      
-      try {
-        await axios.post(`https://61f531ae62f1e300173c4040.mockapi.io/api/list`,values)
-      alert("Thanks for register")
-      } 
-      catch (error) {
-        console.log("Error");
-      }
-    },
-  });
+  function sendEmail(e){
+    e.preventDefault();
+    emailjs.sendForm(
+      'service_upn6mjd', 
+      'template_v6deeyf',
+      e.target,
+      '63hjkYtjTOCyYqllo'
+      ).then(res=>{
+        console.log(res);
+        alert("Thanks for connecting With Us")
+      }).catch(err=>{
+        console.log(err)
+        alert("Sorry Contact us Via contact@blockxtechnologies.com")
+      })
+  }
+    
   return (
     <>
      <div className="About"> 
@@ -59,71 +35,58 @@ function Contactus() {
         </div>
         </div>
       <div className="container" id="Contact">
-        {/* <div className="heading col-lg-12">
-          <h1>Get In <strong>Touch </strong>!!</h1>
-        </div> */}
-        <form  method="post" action="mailto:contact@blockxtechnologies.com">
-          <form  onSubmit={formik.handleSubmit}>
+        <form onSubmit={sendEmail}>
+          
           <div className="container contact">
             <div className="row">
               <div className="col-lg-6 col-sm-12 mt-3">
                 <label className="mb-3">Name</label>
                 <br />
                 <input
+                type="text"
+                name="name"
                   className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
                   placeholder="Enter your name"
-                  onChange={formik.handleChange}
-                  value={formik.values.name}
-                  name="name"
-                  type="text"
+                  required
                 />
-                {formik.errors.name ? <div style={{color: "red"}}>{formik.errors.name}</div> : null}
               </div>
               <div className="col-lg-6 col-sm-12 mt-3">
                 <label className="mb-3">Email</label>
                 <br />
                 <input
+                  type="email"
+                  name="email"
                   className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
                   placeholder="Enter your email"
-                  onChange={formik.handleChange}
-                  value={formik.values.email}
-                  name="email"
-                  type="email"
+                  required
                 />
-                {formik.errors.email ? <div style={{color: "red"}}>{formik.errors.email}</div> : null}
               </div>
               <div className="col-lg-6 col-sm-12 mt-3">
-                <label className="mb-3">Mobile Number</label>
+                <label className="mb-3 mt-4">Mobile Number</label>
                 <br/>
                 <input
+                 type="number"
+                 name="number"
                   className=" col-xs-12 col-lg-12 col-md-12 col-sm-12 input-area"
                   placeholder="Enter your Mobile Number"
-                  onChange={formik.handleChange}
-                  value={formik.values.number}
-                  name="number"
-                  type="number"
+                  required
                 />
-                {formik.errors.number ? <div style={{color: "red"}}>{formik.errors.number}</div> : null}
               </div>
-              <div className="col-lg-12 mt-3">
+              <div className="col-lg-12 mt-5">
                 <label className="mb-3">Your message</label>
                 <br />
                 <div className="text-style">
-                  <textarea
-                    
+                  <textarea 
+                  name="message"                   
                     className="col-lg-12 text"
-                    onChange={formik.handleChange}
-                  value={formik.values.text}
-                  type="text"
-                  name="text"
                     placeholder="Enter your massage"
-                  ></textarea>
-                   
+                    required
+                  ></textarea>                   
                 </div>
                
               </div>
               <div className="radio-btn">
-                <label className="mt-3">Your interest</label>
+                <label className="mt-5">Your interest</label>
                 <div className="radio-input col-lg-8">
                   <div>
                     <input
@@ -132,6 +95,7 @@ function Contactus() {
                       id="Blockchain Development"
                       name="fav_language"
                       value="Blockchain Development"
+                       required
                     />
                     <label for="Blockchain Development">
                       Blockchain Development
@@ -160,39 +124,38 @@ function Contactus() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-lg-6 mt-3">
+                <div className="col-lg-6 mt-4">
                   <p>How Did You Hear About Us?</p>
                   <select
+                    type="select"
+                    name="select"          
                     class="form-select"
                     aria-label="Default select example"
+                    required
                   >
                     <option selected>Choose your answer</option>
-                    <option value="1">Search engines</option>
-                    <option value="2">Social Media</option>
-                    <option value="3">Word of Mouth</option>
-                    <option value="1">Dribble/Behance</option>
-                    <option value="2">Listings(Clutch, GoodFirms etc.)</option>
+                    <option value="Search engines">Search engines</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Word of Mouth">Word of Mouth</option>
+                    <option value="Dribble/Behance">Dribble/Behance</option>
+                    <option value="Listings(Clutch, GoodFirms etc.)">Listings(Clutch, GoodFirms etc.)</option>
                   </select>
                 </div>
               </div>
-              <div className="check mr-3 mt-3">
+              <div className="check mr-3 mt-4">
                   <input type="checkbox"
-                    onChange={formik.handleChange}
-                  value={formik.values.checkbox}
-                  name="checkbox"/> I agree to BlockX Technology <a href="#">Privacy Policy</a>
-                   {formik.errors.checkbox ? <div style={{color: "red"}}>{formik.errors.checkbox}</div> : null}
+                  name="checkbox" required/> I agree to BlockX Technology <a href="#">Privacy Policy</a>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6">
               <div className=" mt-3">
-                <input className="btn-submit" type="Submit" value="Send"/>
+                <input className="btn-submit" type="Submit" value="Submit"/>
               </div>
             </div>
           </div>
-          </form>
-        </form>
+          </form>        
       </div>
     </>
   );

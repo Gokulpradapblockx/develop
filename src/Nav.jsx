@@ -36,10 +36,8 @@ const Nav = () => {
            <Link class="nav-link active" aria-current="page" to="/Aboutus">About us</Link>
          </li>
          
-         <form class="d-flex">  
-                   
-         {/* <Link to="#Contact">Contact us</Link> */}
-        
+         <form class="d-flex">                   
+         <Link to="./Single">Contact us</Link>        
        </form>
        </ul>
         
@@ -80,7 +78,7 @@ const Nav = () => {
               </li>
               
               <form class="d-flex">            
-              {/* <a class="btn" type="submit">Contact us</a> */}
+              <Link to="/Single">Contact us</Link>
             </form>
             </ul>
             </div>

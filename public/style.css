@@ -974,3 +974,6 @@ small{
 .navbar-toggler li{ 
   padding: 1rem;  
 }
+.d-flex a{
+  text-decoration: none;
+}

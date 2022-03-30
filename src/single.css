@@ -1,0 +1,43 @@
+.background{
+    background-image: linear-gradient(
+        to right top,
+        #292546,
+        #262242,
+        #231f3f,
+        #211d3b,
+        #1e1a38,
+        #211939,
+        #231839,
+        #261739,
+        #2f173c,
+        #38173f,
+        #411640,
+        #4a1541
+      );
+    color: rgb(250, 129, 230);
+    width: 100%;
+    height: 100%;
+}
+.soicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.soicon a{
+    color:  rgb(250, 129, 230);
+    font-size: 1rem;
+    transition: .2s;
+}
+.sohead h1{
+    margin-top: 2rem;
+}
+.soicon a:hover{    
+    color:  rgb(255, 255, 255);
+    font-size: 1.5rem;
+    transition: .2s;
+}
+.soicon p{
+    text-decoration: none;
+}

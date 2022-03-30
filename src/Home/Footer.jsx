@@ -58,8 +58,7 @@ const Footer = () => {
         </div>
         <div className="row end">
           <div className="col-lg-4 footer1">
-          <p><GoMail/> Contact@blockxtechnologies.com</p>
-          <p><GoDeviceMobile/> Contact number : +91 8531824727</p>
+          
            
           </div>
           <div className="col-lg-4 col-sm-12 col-xs-12 footer1 logo">
@@ -71,7 +70,7 @@ const Footer = () => {
            <a target="_blank" href="https://discord.gg/JvFkxP9Qa8"><p><FaDiscord/></p></a>
           </div>        
         <div className="col-lg-4 footer1">
-        <p><GoLocation/>Location</p>
+        
         </div>
         </div>
        

@@ -7,7 +7,7 @@ import img5 from './Assets/img5.jpg';
 import img4 from './Assets/img4.jpg';
 import img3 from './Assets/img3.jpg';
 import img2 from './Assets/img2.jpg';
-import img1 from './Assets/img1.jpg';
+import img1 from './Assets/img7.avif';
 const Services = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Services = () => {
             <div className="side_develope">
               <img
                 className="develope_img"
-                src="https://images.unsplash.com/photo-1561451213-d5c9f0951fdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+                src={img1}
                 alt=""
               />
               <h6>Blockchain Development</h6>

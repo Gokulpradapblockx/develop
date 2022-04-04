@@ -33,13 +33,13 @@ const Single = () => {
              <GoMail /> Mail: contact@blockxtechnologies.com
               </h4>
               <h3>
-                <GoDeviceMobile /> Contact number : +91 8531824727
+                <GoDeviceMobile /> Contact number : +91-8531824727 / +91-8094441337
               </h3>
               <div className="row soaddress">
               <div className="col-lg-6">
               <h5>
                 <GoLocation />
-                India
+                 India
               </h5>
               <p>No:726,4th street, <br/>
                   Cross Cut Raod,Tatabad, <br/>
@@ -50,7 +50,7 @@ const Single = () => {
             <div className="col-lg-6">
               <h5>
                 <GoLocation />
-                Seychelles
+                 Seychelles
               </h5>
                   <p>House of Francis,<br/>
                    Room No 303,Ille Du Port,<br/>

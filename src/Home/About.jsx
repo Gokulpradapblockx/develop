@@ -70,7 +70,7 @@ Our main asset is <strong>our resources</strong>. We have top software and block
       </div>
       <div className="discover">
         <p>Discover</p>
-        <a className="rounded-circle" href="./">          
+        <a className="rounded-circle" href="/Aboutus">          
            <i><BsArrowRight /></i>           
         </a>
       </div>

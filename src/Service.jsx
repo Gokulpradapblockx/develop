@@ -2,22 +2,22 @@ import React from "react";
 import Contactus from "./Home/Contactus";
 import Footer from "./Home/Footer";
 import { FaArrowRight } from "react-icons/fa";
-import img6 from './Assets/img6.jpg';
-import img5 from './Assets/img5.jpg';
-import img4 from './Assets/img4.jpg';
-import img3 from './Assets/img3.jpg';
-import img2 from './Assets/img2.jpg';
-import img1 from './Assets/img7.avif';
+import img6 from "./Assets/img6.jpg";
+import img5 from "./Assets/img5.jpg";
+import img4 from "./Assets/img4.jpg";
+import img3 from "./Assets/img3.jpg";
+import img2 from "./Assets/img2.jpg";
+import img1 from "./Assets/img7.avif";
 const Services = () => {
   return (
     <>
       <div className="over_folw container">
         <div className="row over-service">
           <div className="col-lg-6 col-sm-12 Services_d">
-          <h1>Blockchain Development</h1>
+            <h1>Blockchain Development</h1>
             <div className="side_phara">
-              <p>Get a free cosultation</p>
-              <a className="button-i" href="#">
+              <p>Get a free Consultation</p>
+              <a target="_blank" className="button-i" href="https://www.linkedin.com/in/manjari-a-9b1aa345/">
                 <i>
                   <FaArrowRight />
                 </i>
@@ -26,11 +26,7 @@ const Services = () => {
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img1}
-                alt=""
-              />
+              <img className="develope_img" src={img1} alt="" />
               <h6>Blockchain Development</h6>
               <p>
                 A blockchain is a decentralized digital ledger that saves
@@ -47,18 +43,13 @@ const Services = () => {
         </div>
         <div className="row over-service">
           <div className="col-lg-6 Services_d">
-          <h1>Front End-Web 3.O Develop</h1>
+            <h1>Front End-Web 3.O Develop</h1>
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img2}
-                alt=""
-              />
+              <img className="develope_img" src={img2} alt="" />
               <h6>Front End - Web 3.O Development</h6>
               <p>
-               
                 Front end development is the main part of any application in
                 simple terms it is mentioned as Web portal that brings the whole
                 community to understand about the project with complete
@@ -72,15 +63,11 @@ const Services = () => {
         </div>
         <div className="row over-service">
           <div className="col-lg-6 Services_d">
-          <h1>Back End Development</h1>
+            <h1>Back End Development</h1>
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img3}
-                alt=""
-              />
+              <img className="develope_img" src={img3} alt="" />
               <h6>Back End Development</h6>
               <p>
                 Back end development refers to the server side of an application
@@ -99,15 +86,11 @@ const Services = () => {
         </div>
         <div className="row over-service">
           <div className="col-lg-6 Services_d">
-          <h1>Graphics Designing</h1>
+            <h1>Graphics Designing</h1>
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img4}
-                alt=""
-              />
+              <img className="develope_img" src={img4} alt="" />
               <h6>Graphics Designing</h6>
               <p>
                 Graphic designers focus on creating graphics, combining
@@ -125,15 +108,11 @@ const Services = () => {
         </div>
         <div className="row over-service">
           <div className="col-lg-6 Services_d">
-          <h1>Mobile App Development</h1>
+            <h1>Mobile App Development</h1>
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img5}
-                alt=""
-              />
+              <img className="develope_img" src={img5} alt="" />
               <h6>Mobile Application Development</h6>
               <p>
                 Mobile application development is the set of processes and
@@ -153,15 +132,11 @@ const Services = () => {
         </div>
         <div className="row over-service">
           <div className="col-lg-6 Services_d">
-          <h1>Blockchain Auditing & Testing</h1>
+            <h1>Blockchain Auditing & Testing</h1>
           </div>
           <div className="col-lg-6">
             <div className="side_develope">
-              <img
-                className="develope_img"
-                src={img6}
-                alt=""
-              />
+              <img className="develope_img" src={img6} alt="" />
               <h6>Blockchain Auditing & Testing</h6>
               <p>
                 Blockchain testing is the systematic evaluation of the

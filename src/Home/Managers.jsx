@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {  
+  FaLinkedinIn,
     FaArrowRight,
   } from "react-icons/fa";
 const Managers = () => {
@@ -20,19 +22,21 @@ const Managers = () => {
         <div className="manager-card">           
                 <div className="row card-component">
                     <div className="col-lg-4 col-sm-12 compont">
-                        <h5>TALK TECH?</h5>
-                        <p className='m-1'>If you want to have a comprehensive tech conversation I, as a CTO of Devox Software glad to help you specify technical requirements for your product, suggest the best approach and technological stack.</p>
-                        <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
+                        <h5>Need Consulting?</h5>
+                        <p className='m-1 pb-5'>If you want to have a complete Blockchain Consulting, I as a Blockchain Consultant can help you and Guide you in providing the best solution to your requirement or your idea.We have provide our consulting services to about 50+ companies from the scratch of building a complete Blockchain Solution</p>
+                      
+                        <a target="_blank" href="https://www.linkedin.com/in/manjari-a-9b1aa345/">  To Consult <FaArrowRight/></a>
                     </div>
                     <div className="col-lg-4 col-sm-12 compont">
-                        <h5>NEED A TEAM?</h5>
-                        <p className='m-1'>Need a dynamic team? Then you should talk to me. I am CEO of Devox Software. I’d be glad to discuss your needs with you & help you build a team of top talents to help your business reach its potential.</p>
-                        <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
+                        <h5>Need Development?</h5>
+                        <p className='m-1  pb-1'>We are Team of Professionals working in Blockchain Space  in providing a complete Quality Decentralized Application. We are exclusively focusing on all Types of Blockchain Project Development such as Decentralized Finances, Decentralized Autonomous Organization,NFTs, End to End Blockchain Development, Decentralized Exchanges, P2P Lending,Borrowing, Stacking, Web 3.0 Applications. Games Etc.</p>
+                        <a target="_blank" href="https://www.linkedin.com/in/nischayvaish/">
+                         To Tech <FaArrowRight/></a>
                     </div>
                     <div className="col-lg-4 col-sm-12 compont">
-                        <h5>JOIN US?</h5>
-                        <p className='m-1'>Looking for a dream team and a dream job? I am a Recruitment Tech Lead. Write us and send your CV, so we will offer the best opportunity that meets your thriving experience and welcome you in our team.</p>
-                        <a target="_blank" href="#">Email Dariia <FaArrowRight/></a>
+                        <h5>Join Us?</h5>
+                        <p className='m-1 pb-4'>Constantly we are looking for Blockchain Developers, Front End ,Back End Developers, Full Stack Developers, Mobile Application Developers all these collective talents and Skills makes the Blockchain Application the best in the market and you want to be a part of our team in building a better future with the Demanding possibilities. Join with Us</p>
+                        <Link to="./Single">Contact us <FaArrowRight/></Link>
                     </div>
                 </div>
             

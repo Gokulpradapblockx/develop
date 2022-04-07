@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link } from 'react-router-dom';
-import logo from './Assets/blocx_lo.png';
+import logo from './Assets/logo1.png';
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -23,9 +23,9 @@ const Nav = () => {
          <li class="nav-item">
            <Link class="nav-link active" aria-current="page" to="/Services">Services</Link>
          </li>
-         <li class="nav-item">
+         {/* <li class="nav-item">
            <Link class="nav-link active" aria-current="page" to="/Portfolio">Portfolio</Link>
-         </li>
+         </li> */}
          <li class="nav-item">
            <Link class="nav-link active" aria-current="page" to="/Careers">Careers</Link>
          </li>
@@ -64,9 +64,9 @@ const Nav = () => {
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/Services">Services</Link>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/Portfolio">Portfolio</Link>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/Careers">Careers</Link>
               </li>

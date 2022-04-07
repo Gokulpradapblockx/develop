@@ -17,7 +17,7 @@ import {
     BsMedium 
   } from "react-icons/bs";
   
-  import logo from '../Assets/blocx_lo.png';
+  import logo from '../Assets/logo1.png';
 
 const Footer = () => {
   return (

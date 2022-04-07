@@ -2,6 +2,7 @@ import React from "react";
 import {
   BsArrowRight,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -31,7 +32,7 @@ const Header = () => {
           <div className="main-page__button-container">
             <div className="main-page__button-text">
            Let's talk
-            <a className="round-btn link-to-form" href="/#Contact"><i><BsArrowRight /></i></a>
+            <Link className="round-btn link-to-form" to="./Single"><i><BsArrowRight /></i></Link>
             </div>
           </div>
           </div>

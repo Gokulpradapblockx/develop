@@ -30,7 +30,7 @@ const Nav = () => {
            <Link class="nav-link active" aria-current="page" to="/Careers">Careers</Link>
          </li>
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="/Aboutus">Blog</a>
+           <a target="_blank" class="nav-link active" aria-current="page" href="https://blogs.blockxtechnologies.com/">Blog</a>
          </li>
          <li class="nav-item">
            <Link class="nav-link active" aria-current="page" to="/Aboutus">About us</Link>
@@ -71,7 +71,7 @@ const Nav = () => {
                 <Link class="nav-link active" aria-current="page" to="/Careers">Careers</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Aboutus">Blog</a>
+                <a target="_blank" class="nav-link active" aria-current="page" href="https://blogs.blockxtechnologies.com/">Blog</a>
               </li>
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/Aboutus">About us</Link>

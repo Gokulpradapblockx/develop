@@ -16,12 +16,12 @@ const Single = () => {
       <div className="About background">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 sohead text-center">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 sohead text-center">
               {/* <h1> Contact BlockX</h1> */}
               <h4>contact@blockxtechnologies.com</h4>
 
               <div className="col-lg-12 address">
-                <div className="col-lg-6 ">
+                <div className="col-lg-6 col-sm-12">
                <div>   <h5>
                     <GoLocation />
                     India
@@ -38,7 +38,7 @@ const Single = () => {
                     <GoDeviceMobile /> +91-8094441337
                   </p></div>
                   </div>
-                  <div className="col-lg-6 ">
+                  <div className="col-lg-6 col-sm-12">
                   <div>
                   <h5>
                   <GoLocation />

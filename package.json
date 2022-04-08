@@ -1,5 +1,6 @@
 {
   "name": "blockx",
+  "homepage":"https://www.blockxtechnologies.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

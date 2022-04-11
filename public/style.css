@@ -183,7 +183,7 @@ select.form-select{
   font-size: 55px;
   font-weight: 700;
   color: #140d26;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
 }
 .content {
   width: 31.5%;
@@ -214,12 +214,13 @@ select.form-select{
 .manager-card .compont {
   width: 30%;
   height: 100%;
+  color: white;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   border-radius: 20px;
   text-align: center;
-  background-image: linear-gradient(to right top, #f6f1c3, #f6f3b9, #fdfaaa, #fafca0, #f4fa8c);
+  background-image: linear-gradient(to right, #3e314f, #433053, #4a2f56, #512d58, #582a5a);
 }
 .card-component {
   display: flex;
@@ -235,7 +236,7 @@ select.form-select{
 }
 .compont a{
   text-decoration: none;
-  color: black;
+  color: rgb(199, 159, 248);
   margin-top: 3rem;
   font-weight: 500;
   transition: .2s;
@@ -246,7 +247,18 @@ select.form-select{
   font-size: 20px;
   font-weight: 500;
   transition: .2s;
-  color: #7404fd;
+  color: #fd97e7;
+}
+#Contact{
+  margin-top: -2rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }
 #full-footer {
   width: 100%;
@@ -688,8 +700,9 @@ select.form-select{
   min-height: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
+
 .side_develope img {
   width: 100%;
   height: 18rem;
@@ -725,7 +738,6 @@ select.form-select{
   font-family: var(--font-family);
   text-decoration: none;
   font-size: 20px;
-  margin-top: 3rem;
   font-weight: 350;
   padding: 0 80px 0 80px;
 }
@@ -744,7 +756,18 @@ select.form-select{
   width: 12rem;
   height: 16rem;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-top: 1rem;}
+@media (max-width: 400px) {
+  .card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -33%;
+  }
+  .maincontainer {
+    width: 14rem;
+    height: 18rem;
+  }
 }
 
 .thecard {
@@ -913,7 +936,7 @@ select.form-select{
 }
 .footer img{
   width: 80%;
-  height: 15%;
+  height: auto;
 }
 
 .footer h6{
